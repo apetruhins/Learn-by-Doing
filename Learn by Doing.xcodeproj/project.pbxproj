@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA11063528831AB4004F8328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA11063428831AB4004F8328 /* LaunchScreen.storyboard */; };
 		FA2BF870287DCF27009306B2 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BF86F287DCF27009306B2 /* CardData.swift */; };
 		FA2BF872287DD3B1009306B2 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA2BF871287DD3B1009306B2 /* sound-chime.mp3 */; };
 		FA2BF875287DD3E6009306B2 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BF874287DD3E6009306B2 /* PlaySound.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA11063428831AB4004F8328 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA2BF86F287DCF27009306B2 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 		FA2BF871287DD3B1009306B2 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
 		FA2BF874287DD3E6009306B2 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
@@ -57,7 +59,6 @@
 		FA968995287770F000FB93BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA968997287770F200FB93BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA96899A287770F200FB93BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FAAF8376287CB23F006B41E9 /* Learn-by-Doing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Learn-by-Doing-Info.plist"; path = "Learn by Doing/New Group/Learn-by-Doing-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FAAF837A287CB4C6006B41E9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,8 +142,8 @@
 				FAAF8377287CB494006B41E9 /* View */,
 				FA968997287770F200FB93BB /* Assets.xcassets */,
 				FA2BF871287DD3B1009306B2 /* sound-chime.mp3 */,
-				FAAF8376287CB23F006B41E9 /* Learn-by-Doing-Info.plist */,
 				FA968999287770F200FB93BB /* Preview Content */,
+				FA11063428831AB4004F8328 /* LaunchScreen.storyboard */,
 			);
 			path = "Learn by Doing";
 			sourceTree = "<group>";
@@ -252,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA96899B287770F200FB93BB /* Preview Assets.xcassets in Resources */,
+				FA11063528831AB4004F8328 /* LaunchScreen.storyboard in Resources */,
 				FA2BF872287DD3B1009306B2 /* sound-chime.mp3 in Resources */,
 				FA968998287770F200FB93BB /* Assets.xcassets in Resources */,
 			);
@@ -452,6 +454,7 @@
 				INFOPLIST_FILE = "Learn-by-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -481,6 +484,7 @@
 				INFOPLIST_FILE = "Learn-by-Doing-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

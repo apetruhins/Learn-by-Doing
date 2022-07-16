@@ -3,13 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>UILaunchScreen</key>
-	<dict>
-		<key>UIColorName</key>
-		<string>Color02</string>
-		<key>UIImageName</key>
-		<string>logo-swift-outlined</string>
-		<key>UIImageRespectsSafeAreaInsets</key>
-		<false/>
-	</dict>
+	<dict/>
 </dict>
 </plist>
